@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+#pagina {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #17161F, #22212C, #2D2C3A, #3A3949, #474658);
+  animation: rgbLights 3s infinite;
+}
+.border-rgb {
+    border: 1px solid;
+    border-radius: 0.2px;
+}
+#left_container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    height: 100vh;
+    animation: rgbLights 3s infinite;
+}
+#right_container {
+    display: flex;
+    width: 72vw;
+    height: 100vh;
+    animation: rgbLights 3s infinite;
+    
+}
+#profile{
+    color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 32%;
+    background-color: #24232D;
+    border-radius: 8.4px;
+    font-size: 100%;
+}
+#links{
+    color: #EDEDED;
+    background-color: #24232D;
+    width: 90%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8.4px;
+}
+.links_class{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    color: #EDEDED;
+}
+#imgs_logo{
+    height: 74%;
+}
+
+
+
+
+
+
+@keyframes rgbLights {
+    0%, 100% {
+      border-color: #9933cc;
+    }
+    10%, 90% {
+      border-color: #8e15cc;
+    }
+    20%, 80% {
+        border-color: #9048b6;
+      }
+    30%, 70% {
+      border-color: #c86fff;
+    }
+    40%, 60% {
+      border-color: #ba59ff;
+    }
+    50% {
+      border-color: #ab42ff;
+    }
+  }
+  
+/*
+  cor a ser utilizada no retangulo
+  #24232D
+*/
