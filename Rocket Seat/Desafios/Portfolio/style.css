@@ -16,10 +16,10 @@ html,body{
   justify-content: center;
   align-items: center;
   background: linear-gradient(to right, #17161F, #22212C, #2D2C3A, #3A3949, #474658);
-  animation: rgbLights 3s infinite;
+  animation: rgbLights 2.6s infinite;
 }
 .border-rgb {
-    border: 1px solid;
+    border: 1.2px solid;
     border-radius: 0.2px;
 }
 #left_container {
@@ -45,16 +45,21 @@ html,body{
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
-    height: 32%;
+    height: 18%;
     background-color: #24232D;
     border-radius: 8.4px;
     font-size: 100%;
 }
+
+
+
+
+
 #links{
     color: #EDEDED;
     background-color: #24232D;
     width: 90%;
-    height: 32%;
+    height: 24%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -63,20 +68,45 @@ html,body{
 }
 .links_class{
     width: 100%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    color: #EDEDED;
+}
+.imgs_logo{
+    display: flex;
+    height: 3.4vh;
+    padding: 0 10%;
+}
+
+#tecnologias{
+    color: #EDEDED;
+    background-color: #24232D;
+    width: 90%;
     height: 20%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8.4px;
+}
+.tecno_class{
+    width: 8.4%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     text-decoration: none;
     font-size: medium;
     color: #EDEDED;
 }
-#imgs_logo{
-    height: 74%;
-}
-
 
 
 
@@ -102,8 +132,3 @@ html,body{
       border-color: #ab42ff;
     }
   }
-  
-/*
-  cor a ser utilizada no retangulo
-  #24232D
-*/
